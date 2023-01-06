@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <FooterCompo></FooterCompo>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import FooterCompo from '@/components/FooterCompo.vue'
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    FooterCompo
   }
 }
 </script>
+
+<style lang="scss" scoped>
+template{
+  background-color: #333;
+}
+</style>
