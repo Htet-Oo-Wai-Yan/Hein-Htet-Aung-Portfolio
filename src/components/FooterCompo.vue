@@ -3,7 +3,7 @@
         <div class="contact">
 
             <div class="social-contact">
-                <h3 class="social-contact-header">Social Contact</h3>
+                <h3 class="social-contact-header">Social</h3>
 
                 <ul class="social-contact-list">
 
@@ -37,7 +37,7 @@
             </div>
 
             <div class="other-contact">
-                <h3 class="other-contact-header">Other Contact</h3>
+                <h3 class="other-contact-header">Other</h3>
 
                 <ul class="other-contact-list">
 
@@ -71,13 +71,13 @@ export default {
 <style lang="scss" scoped>
 
 .footer{
-    background-color: #333;
+    width: 100%;
+    background-color: #fff;
     border-top-left-radius: 50% 20%;
     border-top-right-radius: 50% 20%;
 
 
     padding: 5px;
-    margin: 5px;
 
         .contact{
             display: flex;
@@ -94,7 +94,7 @@ export default {
                 content: '';
                 width: 3px;
                 height: 80%;
-                background-color: #fff;
+                background-color: #000;
 
                 position: absolute;
                 top: 10%;
@@ -104,7 +104,7 @@ export default {
                 .social-contact-header,.other-contact-header{
                     font-size: 30px;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                    color: #fff;
+                    color: #000;
                 }
 
 
@@ -115,9 +115,6 @@ export default {
                     }
 
                         .social-contact-item,.other-contact-item{
-                            background-color: #000;
-                            border-radius: 5px;
-
                             padding: 10px;
                             margin: 5px;
                         }
@@ -126,7 +123,21 @@ export default {
                             text-decoration: none;
                             font-size: 19px;
                             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                            color: #fff;
+                            color: #000;
+
+                            position: relative;
+                        }
+
+                        .social-contact-link::before,.other-contact-link::before{
+                            content: '';
+                            width: 100%;
+                            height: 2px;
+                            background-color: #000;
+
+                            position: absolute;
+                            bottom: -5px;
+                            left: 0;
+                            
                         }
 }
 
