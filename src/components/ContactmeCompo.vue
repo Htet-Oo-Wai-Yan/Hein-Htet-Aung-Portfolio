@@ -31,8 +31,8 @@ export default {
         border-bottom-left-radius: 50% 20%;
         border-bottom-right-radius: 50% 20%;
 
-        padding: 20px 10px;
-        margin: 50px 20px;
+        padding: 5px 10px;
+        margin: 10px 20px;
     }
 
         .contact-text{  

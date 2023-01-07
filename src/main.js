@@ -10,10 +10,13 @@ import {faDribbble} from '@fortawesome/free-brands-svg-icons'//dribbble icon
 import {faPhone} from '@fortawesome/free-solid-svg-icons'//phone icon
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'//mail icon
 import {faBehance} from '@fortawesome/free-brands-svg-icons'
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSquareFacebook,faLinkedin,faDribbble,faPhone,faEnvelope,faBehance);
+ 
+library.add(faSquareFacebook,faLinkedin,faDribbble,faPhone,faEnvelope,faBehance,faArrowLeft,faArrowRight);
 
 createApp(App)
-.component('fa',FontAwesomeIcon)
+.component('icon',FontAwesomeIcon)
 .use(router)
 .mount('#app')
