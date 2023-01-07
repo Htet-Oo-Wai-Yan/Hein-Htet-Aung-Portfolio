@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <PartnerCompo></PartnerCompo>
     <TestimonialCompo></TestimonialCompo>
     <ContactmeCompo></ContactmeCompo>
     <FooterCompo></FooterCompo>
@@ -11,12 +12,15 @@
 import FooterCompo from '@/components/FooterCompo.vue'
 import ContactmeCompo from '@/components/ContactmeCompo.vue'
 import TestimonialCompo from '@/components/TestimonialCompo.vue'
+import PartnerCompo from '@/components/PartnerCompo.vue'
+
 export default {
   name: 'HomeView',
   components: {
     FooterCompo,
     ContactmeCompo,
-    TestimonialCompo
+    TestimonialCompo,
+    PartnerCompo
   }
 }
 </script>

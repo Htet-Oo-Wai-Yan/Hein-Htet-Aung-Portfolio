@@ -8,8 +8,7 @@
                 <ul class="social-contact-list">
 
                     <li class="social-contact-item">
-                        <a href="" class="social-contact-link facebook-contact">
-                            
+                        <a href="" class="social-contact-link facebook-contact">    
                             Facebook
                         </a>
                     </li>
