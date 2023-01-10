@@ -12,9 +12,10 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons'//mail icon
 import {faBehance} from '@fortawesome/free-brands-svg-icons'
 import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import {faPenAlt} from '@fortawesome/free-solid-svg-icons'
 
  
-library.add(faSquareFacebook,faLinkedin,faDribbble,faPhone,faEnvelope,faBehance,faArrowLeft,faArrowRight);
+library.add(faSquareFacebook,faLinkedin,faDribbble,faPhone,faEnvelope,faBehance,faArrowLeft,faArrowRight,faPenAlt);
 
 createApp(App)
 .component('icon',FontAwesomeIcon)

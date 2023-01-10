@@ -33,7 +33,7 @@
                 <img src="../assets/logo.png" alt="partner1">
             </div>
 
-            <div class="partner-card c-1">
+            <div class="partner-card c-6">
                 <img src="../assets/logo.png" alt="partner1">
             </div>
         
@@ -94,7 +94,7 @@ export default {
 
 
            .partner-card{
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0 ;
             box-shadow: 0px 1px 10px -5px rgba(55,55,55,0.92);
             background: #fff;
             
@@ -104,6 +104,10 @@ export default {
             margin-bottom: -3px;
             padding: 5px;
 
+           }
+
+           .c-6{
+                border-radius: 0 0 5px 5px;
            }
 
             .partner-card img{
