@@ -1,5 +1,23 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <ContactEmailCompo></ContactEmailCompo>
   </div>
 </template>
+
+
+<script>
+// @ is an alias to /src
+import ContactEmailCompo from '@/components/ContactEmailCompo.vue'
+
+export default {
+  components: {
+    ContactEmailCompo
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.home{
+  background-color: #000;
+}
+</style>
